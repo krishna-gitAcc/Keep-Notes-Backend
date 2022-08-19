@@ -24,5 +24,5 @@ app.use('/api/notes', require("./routes/notes"));
 
 
 app.listen(process.env.PORT || port, () => {
-    console.log(`iNotebook backend listening on port ${port}`);
+    console.log(`iNotebook backend listening on port ${porcess.env.PORT}`);
 })
